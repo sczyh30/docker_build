@@ -1,0 +1,28 @@
+@font-face{font-style:normal;font-family:"微软雅黑";src:local("微软雅黑")}@font-face{font-family:"微软雅黑";src:local("微软雅黑")}@font-face{font-style:normal;font-family:"微软雅黑";src:local("微软雅黑");unicode-range:U+0-FF}@font-face{font-family:"微软雅黑";src:local("微软雅黑");unicode-range:U+0-FF}:not(pre):not(code):not(textarea):not(tt):not(kbd):not(samp):not(var){font-family:"微软雅黑"!important}pre,code,textarea,tt,kbd,samp,var{font-family:"微软雅黑"!important}pre *,code *,textarea *,tt *,kbd *,samp *,var *{font-family:"微软雅黑"!important}
+
+.text-center-sm{text-align: center;}
+.pic-size-half{width:50%;height:50%;}
+.text-YaHei-normal{font-family: "微软雅黑";}
+.text-YaHei-lg{font-family: "微软雅黑";font-size: large;}
+.text-YaHei-lgb{font-family: "微软雅黑";font-size: large;font-weight: bold;}
+.text-seablue{color: #3d85c6;}
+.text-dgreen{color: #009900;}
+.text-dyellow{color: #8a6d3b;}
+.panel-purple-sm{
+	border-color: #AC38E6;
+}
+.panel-purple-sm > .panel-heading {
+  color: #fff;
+  background-color: #AC38E6;
+  border-color: #AC38E6;
+}
+.panel-purple-sm > .panel-heading + .panel-collapse > .panel-body {
+  border-top-color: #AC38E6;
+}
+.panel-purple-sm > .panel-heading .badge {
+  color: #AC38E6;
+  background-color: #fff;
+}
+.panel-purple-sm > .panel-footer + .panel-collapse > .panel-body {
+  border-bottom-color: #AC38E6;
+}

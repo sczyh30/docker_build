@@ -1,0 +1,180 @@
+﻿<!-- website by sczyh30 -->
+<!-- M1racle Team - We are the first! -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>M1racle Team Website</title>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <script src="js/require.min.js" data-main="js/main" defer async="true"></script> -->
+	<!-- <script src="http://cdn.bootcss.com/flat-ui/2.2.2/js/flat-ui.min.js"></script> -->
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css">
+  	<link href="http://cdn.bootcss.com/flat-ui/2.2.2/css/flat-ui.min.css" rel="stylesheet">
+  	<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/styles/default.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/index.css">
+  	<script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.7/highlight.min.js"></script>
+    	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="container">
+	   <!-- website header area start-->
+	   <div id="m1-header">
+	   	<h2 class="text-center-sm">M1racle Team</h2>
+		<p class="lead text-center-sm text-success">欢迎来到M1racle Team~ 让我们一起创造奇迹!</p>
+			<center><img src="http://7xkkgd.com1.z0.glb.clouddn.com/m1racle-logo2.png" class="img-responsive pic-size-half" alt="logo"></center>
+           <div class="text-center-sm">
+               <div class="btn-group" id="btn-lg-group">
+                   <button type="button" class="btn btn-success btn-lg" onclick="alert_will()">登录</button>
+                   <button type="button" class="btn btn-warning btn-lg">注册</button>
+                   <button type="button" class="btn btn-primary btn-lg" onclick="alert_will()">加入我们</button>
+               </div>
+           </div>
+	    <hr>
+	   </div>
+	   <!-- website header area end-->
+	<!-- row clearfix start-->
+	<div class="row clearfix" id="m1-main">
+		<!--nav bar start -->
+		<nav class="navbar navbar-default" role="navigation" id="m1-navbar">
+		   <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" 
+		          data-target="#example-navbar-collapse">
+		         <span class="sr-only">切换导航</span>
+		         <span class="icon-bar"></span>
+		         <span class="icon-bar"></span>
+		         <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand">M1racle Guide</a>
+		   </div>
+		   <div class="collapse navbar-collapse" id="example-navbar-collapse">
+		      <ul class="nav navbar-nav">
+		         <li class="active"><a href="#">主页</a></li>
+		         <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+		            role="button" aria-expanded="false">
+		               技术分享
+		               <b class="caret"></b>
+		            </a>
+		            <ul class="dropdown-menu" role="menu">
+		               <li><a href="#">Algorithm</a></li>
+		               <li><a href="#">Android/iOS</a></li>
+                       <li><a href="#">Big Data</a></li>
+		               <li><a href="#">Data Mining</a></li>
+		               <li><a href="#">Functional Programming</a></li>
+		               <li><a href="#">Programming Language</a></li>
+                       <li><a href="#">ML & NLP</a></li>
+		               <li><a href="#">Software Architecture</a></li>
+                       <li><a href="#">Web</a></li>
+		            </ul>
+		         </li>
+		         <li><a href="/m1racle->osc">开源社区</a></li>
+		         <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+		            role="button" aria-expanded="false">
+		               实用工具集
+		               <b class="caret"></b>
+		            </a>
+		            <ul class="dropdown-menu" role="menu">
+		               <li><a href="#">工具简介</a></li>
+		               <li class="divider"></li>
+		               <li><a href="#">加密/解密工具</a></li>
+		               <li><a href="#">CSS选色器</a></li>
+		               <li class="divider"></li>
+		               <li><a href="#">代码优化</a></li>
+		               <li><a href="#">代码查重</a></li>
+		            </ul>
+		         </li>
+		         <li><a href="/this->docker">Docker基地</a></li>
+		         <li><a href="/dm/repo">Samsara数据仓库</a></li>
+		         <li><a onclick="alert_will()">关于我们</a></li>
+		      </ul>
+		   </div>
+		</nav>
+
+		<!-- nav bar end -->
+	<!-- alert area start -->
+	<div class="alert alert-info alert-dismissable" id="m1-alert">
+		<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+		<h4>Information</h4>
+		<div><strong>最近服务器不太正常，访问服务器会很慢。本页面为缓存页面，未连接至后端服务器。</strong></div>
+	</div>
+	<!-- alert area end-->
+	<!-- panel tips area start-->
+	<div class="panel panel-success" id="m1-tips">
+	   <div class="panel-heading">
+	      <h3 class="panel-title">Tips Everyday</h3>
+	   </div>
+	   <div class="panel-body">
+	      <p><strong>梦想这东西和经典一样,永远不会因为时间而褪色,反而更显珍贵。</strong></p>
+          	      <p><strong>Classical is something not fade,but grow more precious with time pass by,so is dream. </strong></p>
+	   </div>
+	</div>
+	<!-- panel tips area end-->
+	<!-- panel news area start -->
+	<div class="panel panel-primary" id="m1-news">
+	   <div class="panel-heading">
+	      <h3 class="panel-title">Latest Technology News</h3>
+	   </div>
+	   <div class="panel-body text-seablue bg-info">
+	      <strong>这里收集了一些最新的科技时讯及开发知识</strong>
+	   </div>
+	   <ul class="list-group">
+	      <li class="list-group-item"><p><strong>Google翻译是如何把深度学习“塞进”手机的</strong></p>
+	      <strong>为了达到翻译的即时性，我们也做了大量的优化工作，而且优化和反复调试的工作量很大。此外，为了改善计算性能，在某些数学运算上，也需要手工重度调优。我们充分利用SIMD（Single instruction, multiple data，单指令流多数据流），这是一种数据并行的模式，来挖掘智能多核手机的并行潜能。同时，我们还优化矩阵乘法，提高矩阵运算的局部性，使之在各级缓存（Cache）中，提高Cache的命中率。</strong>
+	      </li>
+	      <li class="list-group-item"><p><strong>史上最复杂的验证邮件地址的正则表达式</strong></p>
+	      	<p>表示已吓尿(不愧是Perl):</p>
+	      	<pre><code>(?:(?:\r\n)?[ \t])*(?:(?:(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[\t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*|(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*\&lt;(?:(?:\r\n)?[ \t])*(?:@(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[\t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*(?:,@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[\t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*)*:(?:(?:\r\n)?[ \t])*)?(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*\&gt;(?:(?:\r\n)?[ \t])*)|(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*:(?:(?:\r\n)?[ \t])*(?:(?:(?:[^()&lt;&gt;@,;:\\".\[\]\000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*|(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*\&lt;(?:(?:\r\n)?[ \t])*(?:@(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*(?:,@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\]\000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*)*:(?:(?:\r\n)?[ \t])*)?(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*\&gt;(?:(?:\r\n)?[ \t])*)(?:,\s*(?:(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*|(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)*\&lt;(?:(?:\r\n)?[ \t])*(?:@(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*(?:,@(?:(?:\r\n)?[\t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*)*:(?:(?:\r\n)?[ \t])*)?(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|"(?:[^\"\r\\]|\\.|(?:(?:\r\n)?[ \t]))*"(?:(?:\r\n)?[ \t])*))*@(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*)(?:\.(?:(?:\r\n)?[ \t])*(?:[^()&lt;&gt;@,;:\\".\[\] \000-\031]+(?:(?:(?:\r\n)?[ \t])+|\Z|(?=[\["()&lt;&gt;@,;:\\".\[\]]))|\[([^\[\]\r\\]|\\.)*\](?:(?:\r\n)?[ \t])*))*\&gt;(?:(?:\r\n)?[ \t])*))*)?;\s</code></pre>
+	      </li>
+	   </ul>
+	   <div class="panel-footer"><strong>由<span class="text-seablue">Samsara Stream</span>自动抓取。更新于2015-08-05。</strong></div>
+	</div>
+	<!-- panel news area end -->
+	<!-- image panel start -->
+	    <div class="panel panel-warning" id="m1-image">
+	            <div class="panel-heading">
+	                <h3 class="panel-title">Image repositories</h3>
+	            </div>
+	            <div class="panel-body text-dyellow bg-warning"><strong>这里提供了一些国内的镜像，以解决部分国外镜像较慢的问题。后续将添加自己的镜像。</strong></div>
+	            <ul class="list-group">
+	                <li class="list-group-item"><p><strong>NPM镜像</strong></p>
+		                <p>淘宝NPM镜像：<a href="https://registry.npm.taobao.org">https://registry.npm.taobao.org</a></p>
+		                <p><strong>使用方法：</strong></p>
+		                <pre><code>$ npm install something --registry=https://registry.npm.taobao.org</code></pre>
+		                <p><strong>或者在配置文件里修改默认镜像</strong></p>
+	                </li>
+	                <li class="list-group-item"><p><strong>pip镜像</strong></p>
+		                <p>豆瓣：<a href="http://pypi.douban.com/simple">http://pypi.douban.com/simple</a></p>
+		                <p>V2EX：<a href="http://pypi.v2ex.com/simple">http://pypi.v2ex.com/simple</a></p>
+		                <p><strong>使用方法（以豆瓣镜像为例）：</strong></p>
+		                <pre><code>$ pip install something -i http://pypi.douban.com/simple</code></pre>
+		                <p><strong>或者在配置文件里修改默认镜像
+		                （linux的文件在~/.pip/pip.conf，windows在%HOMEPATH%\pip\pip.ini）</strong></p>
+		                <p><strong>修改或添加以下语句：</strong></p>
+		                <pre><code>[global]<br/>index-url = http://pypi.douban.com/simple</code></pre>
+		   </li>
+	                <li class="list-group-item"><p><strong>Maven/Gradle镜像</strong></p>
+	                	<p>开源中国Maven仓库：<a href="http://maven.oschina.net/content/groups/public/">http://maven.oschina.net/content/groups/public/</a></p>
+		             <p><strong>使用方法：</strong></p>
+		             <p><strong>修改Maven安装目录下conf文件夹的 settings.xml 文件</strong></p>
+		             <pre><code>&lt;mirrors&gt;<br/>&lt;!-- mirror | Specifies a repository mirror site to use instead of a given <br/>repository. The repository that | this mirror serves has an ID that matches <br/>the mirrorOf element of this mirror. IDs are used | for inheritance and direct <br/>lookup purposes, and must be unique across the set of mirrors. | --&gt;<br/>	&lt;mirror&gt;<br/>		&lt;id&gt;nexus-osc&lt;/id&gt;<br/>		&lt;mirrorOf&gt;*&lt;/mirrorOf&gt;<br/>		&lt;name>Nexus osc&lt;/name&gt;<br/>		&lt;url>http://maven.oschina.net/content/groups/public/&lt;/url&gt;<br/>	&lt;/mirror&gt;<br/>&lt;/mirrors&gt;<br/></code></pre>
+	                </li>
+	                <li class="list-group-item"><p><strong>其它国内镜像</strong></p>
+	                	<p>清华大学 TUNA 镜像源：<a href="http://mirrors.tuna.tsinghua.edu.cn/">http://mirrors.tuna.tsinghua.edu.cn/</a></p>
+	                </li>
+	            </ul>
+	    </div>
+	</div><!-- image panel end -->
+	<hr><!-- website footer start -->
+	<div id="m1-footer">
+		<center><img src="m1racle-temp.png" class="img-responsive" alt="logo"></center>
+		<center><strong>Copyright © 2015 M1racle Team | We are the f1rst!</strong></center><br/>
+
+	</div>
+	<!-- row clearfix end-->
+</div>
+</body>
+</html>
