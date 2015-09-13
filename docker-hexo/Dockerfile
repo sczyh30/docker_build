@@ -17,4 +17,4 @@ WORKDIR /blog
 
 EXPOSE 4000
 
-CMD ["cd /blog && hexo s"]
+CMD ["hexo s"]
