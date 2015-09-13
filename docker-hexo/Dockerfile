@@ -15,6 +15,6 @@ RUN npm install hexo -g
 RUN cd / && hexo init blog && cd blog && npm install
 WORKDIR /blog
 
-EXPOSE 4000
+EXPOSE 4000 4000
 
-CMD ["hexo s"]
+CMD hexo s
