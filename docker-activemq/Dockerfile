@@ -10,6 +10,6 @@ RUN yum update -y \
 RUN cd /opt && curl -O http://www.eu.apache.org/dist/activemq/5.12.0/apache-activemq-5.12.0-bin.tar.gz \
 	&& tar -xzvf apache-activemq-5.12.0-bin.tar.gz  && rm -rf apache-activemq-5.12.0-bin.tar.gz 
 
-CMD /opt/apache-activemq-5.12.0/bin/activemq
+CMD /opt/apache-activemq-5.12.0/bin/activemq console
 
-EXPOSE 8161 8161
+EXPOSE 8161
