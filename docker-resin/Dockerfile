@@ -14,7 +14,7 @@ ENV RESIN_HOME /opt/resin-pro-4.0.45
 
 EXPOSE 8080
 
-CMD /opt/resin-pro-4.0.45/bin/resin.sh resin
+CMD /opt/resin-pro-4.0.45/bin/resin.sh console
 
 
 
