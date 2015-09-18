@@ -12,9 +12,9 @@ RUN cd /opt && curl -O http://caucho.com/download/resin-pro-4.0.45.tar.gz \
 
 ENV RESIN_HOME /opt/resin-pro-4.0.45
 
-EXPOSE 80 8080
+EXPOSE 8080
 
-CMD /opt/resin-pro-4.0.45/bin/resin.sh start
+CMD /opt/resin-pro-4.0.45/bin/resin.sh resin
 
 
 

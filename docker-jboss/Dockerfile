@@ -12,7 +12,7 @@ RUN cd /opt && curl -O http://download.jboss.org/jbossas/7.1/jboss-as-7.1.1.Fina
 
 ENV JBOSS_HOME /opt/jboss-as-7.1.1.Final
 
-EXPOSE 80 8080
+EXPOSE 8080
 
 CMD /opt/jboss-as-7.1.1.Final/bin/standalone.sh
 
